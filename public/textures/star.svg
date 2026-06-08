@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="starGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </radialGradient>
+  </defs>
+  <polygon points="100,10 125,75 195,75 140,118 162,185 100,143 38,185 60,118 5,75 75,75"
+           fill="url(#starGrad)" stroke="#f59e0b" stroke-width="2"/>
+  <polygon points="100,30 118,75 165,75 128,100 143,148 100,120 57,148 72,100 35,75 82,75"
+           fill="#fef3c7" opacity="0.5"/>
+</svg>

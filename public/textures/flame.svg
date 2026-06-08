@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="flameGrad" cx="50%" cy="80%" r="70%">
+      <stop offset="0%" stop-color="#fde68a"/>
+      <stop offset="40%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </radialGradient>
+  </defs>
+  <!-- Main flame -->
+  <path d="M100 180 C60 160 30 130 40 90 C50 50 75 40 80 20 C90 50 70 70 85 100 C95 65 100 30 115 10 C120 50 100 80 120 110 C130 80 140 60 155 55 C150 90 140 110 150 140 C165 120 170 100 175 80 C185 110 175 150 150 170 C140 177 120 185 100 180Z"
+        fill="url(#flameGrad)"/>
+  <!-- Inner bright -->
+  <path d="M100 165 C80 150 65 130 70 105 C78 80 90 75 95 60 C102 80 88 100 100 120 C108 95 115 75 125 65 C124 90 108 110 120 130 C130 110 135 95 142 88 C140 112 130 135 115 152 C110 158 105 163 100 165Z"
+        fill="#fef3c7" opacity="0.8"/>
+</svg>

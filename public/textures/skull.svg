@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Skull shape -->
+  <ellipse cx="100" cy="90" rx="65" ry="70" fill="#e2e8f0"/>
+  <!-- Eye sockets -->
+  <ellipse cx="72" cy="85" rx="20" ry="22" fill="#1e293b"/>
+  <ellipse cx="128" cy="85" rx="20" ry="22" fill="#1e293b"/>
+  <!-- Eye glints -->
+  <circle cx="78" cy="78" r="6" fill="#6366f1" opacity="0.8"/>
+  <circle cx="134" cy="78" r="6" fill="#6366f1" opacity="0.8"/>
+  <!-- Nose -->
+  <path d="M93 110 L107 110 L100 125Z" fill="#1e293b"/>
+  <!-- Jaw -->
+  <rect x="55" y="145" width="90" height="30" rx="10" fill="#e2e8f0"/>
+  <!-- Teeth -->
+  <g fill="#1e293b">
+    <rect x="63" y="148" width="14" height="20" rx="3"/>
+    <rect x="82" y="148" width="14" height="20" rx="3"/>
+    <rect x="101" y="148" width="14" height="20" rx="3"/>
+    <rect x="120" y="148" width="14" height="20" rx="3"/>
+  </g>
+  <!-- Cheekbone cracks -->
+  <line x1="50" y1="70" x2="35" y2="55" stroke="#94a3b8" stroke-width="2.5"/>
+  <line x1="35" y1="55" x2="25" y2="60" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="150" y1="70" x2="165" y2="55" stroke="#94a3b8" stroke-width="2.5"/>
+  <line x1="165" y1="55" x2="175" y2="60" stroke="#94a3b8" stroke-width="1.5"/>
+</svg>
