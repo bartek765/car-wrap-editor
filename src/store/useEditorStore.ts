@@ -2,9 +2,9 @@ import { create } from 'zustand';
 import { v4 as uuidv4 } from 'uuid';
 import * as THREE from 'three';
 
-export type StickerType = 'star' | 'flame' | 'racing' | 'lightning' | 'skull' | 'stripes' | 'number42' | 'custom';
+export type StickerType = 'star' | 'flame' | 'racing' | 'lightning' | 'skull' | 'stripes' | 'number42' | 'custom' | 'circle' | 'square' | 'triangle' | 'line_straight' | 'line_diagonal';
 
-export type CarId = 'ferrari' | 'concept';
+export type CarId = 'ferrari' | 'concept' | 'sedan' | 'suv';
 
 export interface CarConfig {
   id: CarId;
@@ -34,6 +34,24 @@ export const CAR_CONFIGS: CarConfig[] = [
     paintMaterialNames: ['Paint 1 Carmine', 'Paint 2 Carmine'],
     cameraPos: [5.5, 2.8, 6.5],
     cameraTarget: [0, 0.6, 0],
+  },
+  {
+    id: 'sedan',
+    name: 'City Sedan',
+    subtitle: 'Sedan · Low Poly',
+    file: '/models/car2.glb',
+    paintMaterialNames: ['Body', 'Body_2'],
+    cameraPos: [4.0, 2.0, 5.0],
+    cameraTarget: [0, 0.5, 0],
+  },
+  {
+    id: 'suv',
+    name: 'Heavy SUV',
+    subtitle: 'Truck · Military',
+    file: '/models/suv.glb',
+    paintMaterialNames: ['CougarOne'],
+    cameraPos: [6.0, 3.5, 7.0],
+    cameraTarget: [0, 1.0, 0],
   },
 ];
 

@@ -84,7 +84,8 @@ function AdaptiveCamera() {
 }
 
 export default function Scene() {
-  const { mode, setActiveDecalId } = useEditorStore();
+  const { mode, setActiveDecalId, selectedCarId } = useEditorStore();
+  const config = CAR_CONFIGS.find(c => c.id === selectedCarId)!;
 
   return (
     <div className="relative flex-1 h-full bg-[#06060e]">
@@ -121,7 +122,7 @@ export default function Scene() {
             minDistance={2}
             maxDistance={14}
             enabled={mode !== 'place'}
-            target={[0, 0.6, 0]}
+            target={config.cameraTarget as [number, number, number]}
           />
         </Suspense>
       </Canvas>
