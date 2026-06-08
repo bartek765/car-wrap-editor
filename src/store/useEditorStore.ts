@@ -4,7 +4,7 @@ import * as THREE from 'three';
 
 export type StickerType = 'star' | 'flame' | 'racing' | 'lightning' | 'skull' | 'stripes' | 'number42' | 'custom' | 'circle' | 'square' | 'triangle' | 'line_straight' | 'line_diagonal';
 
-export type CarId = 'ferrari' | 'concept' | 'sedan' | 'suv';
+export type CarId = 'ferrari' | 'concept' | 'porsche' | 'suv';
 
 export interface CarConfig {
   id: CarId;
@@ -36,11 +36,11 @@ export const CAR_CONFIGS: CarConfig[] = [
     cameraTarget: [0, 0.6, 0],
   },
   {
-    id: 'sedan',
-    name: 'City Sedan',
-    subtitle: 'Sedan · Low Poly',
-    file: '/models/car2.glb',
-    paintMaterialNames: ['Body', 'Body_2'],
+    id: 'porsche',
+    name: 'Sport Coupe',
+    subtitle: 'Coupe · High Poly',
+    file: '/models/porsche.glb',
+    paintMaterialNames: ['Material.005', 'Material.006'],
     cameraPos: [4.0, 2.0, 5.0],
     cameraTarget: [0, 0.5, 0],
   },
